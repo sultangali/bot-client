@@ -1,0 +1,180 @@
+$theme-colors: (
+  "primary": #0077b6,
+  "success": #198754,
+  "info": #fdc500,
+  "danger": #dc3545,
+);
+
+ @import "~bootstrap/scss/bootstrap";
+
+body {
+  font-family: 
+  'Ubuntu',
+  sans-serif;
+}
+.navbar {
+  padding: 10px 10px; 
+}
+.navbar-brand,
+.navbar-nav .nav-link {
+    font-size: larger; 
+    font-weight: 700;
+}
+.btn {
+  font-size: larger; 
+    font-weight: 700;
+}
+.brand-link {
+  text-decoration: none;
+}
+
+.sign-card {
+  height:  80vh;
+}
+
+.content-spinner {
+  background-color: white;
+  height: 80vh;
+}
+
+.main-page-container {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/main-book.jpg') no-repeat center center fixed;
+  background-size: cover;
+  height: 50vh;
+}
+
+.main-page-top-heading {
+  font-size: x-large;
+  font-weight: 700;
+}
+
+.status-btn {
+  padding: auto 6px;
+  border-radius: 0px;
+}
+
+.status-todo {
+  font-weight: bold;
+}
+
+.status-in-progress {
+  font-weight: bold;
+  text-decoration: underline;
+  text-decoration-color: orange;
+}
+
+
+.status-done {
+  text-decoration: line-through;
+}
+
+.reg-nav-link {
+  border: 1px solid white;
+  border-radius: 4px;
+  color: white;
+  //margin: auto 12px;
+}
+
+.auth-img {
+  background: radial-gradient(#0076b64d, #0076b656), url('../images/auth-img.jpg') center fixed;
+  background-size: auto;
+  border-radius: 6px;
+  height: 18vh;
+  width: 100%;
+}
+.form-control {
+  border: 1px solid #0077b6;
+  padding: 12px 24px;
+}
+.form-control-phone {
+  border: 1px solid #0077b6;
+  padding: 10px 24px;
+}
+.btn {
+  padding: 12px 26px;
+}
+
+.btn-link {
+  text-decoration: none;
+  color: #0077b6;
+}
+.btn-link:hover {
+  text-decoration: underline;
+  color: #00a1f8;
+}
+
+.admin-card-btn-emp {
+  height: 300px;
+
+}
+
+.admin-card-btn-emp:hover {
+  background-color: white;
+  color: black;
+}
+
+.admin-card-btn-cli {
+  height: 300px;
+}
+.admin-card-btn-cli:hover {
+  background-color: white;
+}
+.admin-card-btn-pro {
+  height: 300px;
+}
+.admin-card-btn-pro:hover {
+  background-color: white;
+  color: black;
+}
+
+.customer-img {
+  cursor: pointer;
+  border: 1px solid #0077b6;
+  border-radius: 4px;
+}
+
+.category-btn {
+  font-size: medium;
+  border-radius: 24px;
+  margin: 6px;
+  border: 1px solid #0077b6;
+  background-color: transparent;
+  color: black
+}
+
+.h4-heading {
+  color: #0077b6;
+  font-weight: 700;
+}
+
+.short-book-card {
+  cursor: pointer;
+  border: 1px solid #0077b6;
+  margin-bottom: 16px;
+  img {
+    height: 480px;
+    size: cover;
+    margin-bottom: 10px;
+  }
+  h5 {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin: auto 12px;
+  }
+  h6 {
+    color: gray
+  }
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+.short-book-card:hover {
+  box-shadow: 1px 1px 24px #0077b6;
+}
+
+.checkout-card {
+  border: 1px solid #0077b6;
+  border-radius: 6px;
+  background-color: #0076b612;
+  padding: 24px;
+}
